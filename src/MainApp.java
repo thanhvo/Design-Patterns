@@ -16,4 +16,9 @@ public class MainApp  extends TestCase{
 		e = new SalesRep("Shania", "1");
 		System.out.println(e.computeCompensation());
 	}
+	
+	public void test_Private_Methods() {
+		OrderManager om = new OrderManager();
+		om.saveOrder("Macbook", 10);
+	}
 }
