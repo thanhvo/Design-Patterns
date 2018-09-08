@@ -43,5 +43,18 @@ public class Customer {
 	public void setActive(boolean newValue) {
 		active = newValue;
 	}
+	
+	public boolean isValidCustomer() {
+		if ((firstName.length() >0) && (lastName.length() >0) && (address.length() > 0))
+			return true;
+		return false;
+	}
+	
+	public void save() {
+		String data = firstName + "," + lastName + "," + address + "," + active;
+		FileUtil futil = new FileUtil();
+		futil.writeToFile("customer.txt", data);
+	}
+	
 
 }

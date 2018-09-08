@@ -25,8 +25,9 @@ public class MainApp  extends TestCase{
 	public void test_Accessor() {
 		Customer customer = new Customer("Thanh", "Vo", "17 Phan Huy Ich", true);
 		System.out.println(customer.getFirstName() + " lives at " + customer.getAddress());
-		System.out.println(customer.getFirstName() + " is " + (customer.isActive()? "" : "not ") + "active");
+		System.out.println(customer.getFirstName() + " is " + (customer.isActive() ? "" : "not ") + "active");
 		customer.setActive(false);
-		System.out.println(customer.getFirstName() + " is " + (customer.isActive()? "" : "not ") + "active");
+		System.out.println(customer.getFirstName() + " is " + (customer.isActive() ? "" : "not ") + "active");
+		System.out.println(customer.getFirstName() + " is " + (customer.isValidCustomer() ? "" : "not ") + "a valid customer.");
 	}
 }
