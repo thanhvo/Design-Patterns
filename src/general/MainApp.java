@@ -1,3 +1,4 @@
+package general;
 import junit.framework.TestCase;
 
 public class MainApp  extends TestCase{

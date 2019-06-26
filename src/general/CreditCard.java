@@ -1,3 +1,4 @@
+package general;
 
 public class CreditCard {
 	public static final String CC_DATA_FILE = "CC.TXT";

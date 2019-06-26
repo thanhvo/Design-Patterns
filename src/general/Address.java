@@ -1,3 +1,4 @@
+package general;
 
 public class Address {
 	public static final String ADDRESS_DATA_FILE = "ADDRESS.TXT";

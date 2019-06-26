@@ -1,4 +1,4 @@
-
+package general;
 public class SalesRep extends Employee{
 	// variable part behavior	
 	public String computeCompensation() {

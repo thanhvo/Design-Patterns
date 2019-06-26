@@ -1,3 +1,4 @@
+package general;
 
 public class Consultant extends Employee{
 	public String computeCompensation() {

@@ -1,3 +1,4 @@
+package general;
 
 public class OrderManager {
 	private int orderID = 0;

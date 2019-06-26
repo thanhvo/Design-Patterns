@@ -1,4 +1,4 @@
-
+package general;
 public class EmployeeModel {
 	// State
 	private String firstName;

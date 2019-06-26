@@ -1,3 +1,4 @@
+package general;
 
 public class FieldWorker extends Employee{
 

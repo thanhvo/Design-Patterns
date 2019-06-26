@@ -1,3 +1,4 @@
+package general;
 
 public class CategoryA  implements SalaryCalculator{
 	double baseSalary;

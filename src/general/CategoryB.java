@@ -1,3 +1,4 @@
+package general;
 
 public class CategoryB implements SalaryCalculator {
 	double salesAmt;

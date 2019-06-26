@@ -1,3 +1,4 @@
+package general;
 
 public class ConstantDataManager {
 	public static final String ACCOUNT_DATA_FILE = "ACCOUNT.TXT";
